@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate</title>
+  <link rel="stylesheet" href="css/donate.css">
+</head>
+<body>
+  <div class="wrapper">
+  <div class="container">
+    <div class="tabs">
+      <ul>
+        <li class="active">Payment</li>
+        <li>Summary</li>
+      </ul>
+    </div>
+    
+    <div class="typeofpayment">
+      <input class="payment" id="c-card" type="checkbox" checked=true>
+      <label for="c-card">Credit Card</label>
+      <input class="payment" id="GPay" type="checkbox">
+      <label for="GPay">GPay</label>
+    </div>
+    
+    <form>
+         <label for="money">Enter Amt to Donate in Rs.</label>
+     <input type="text">
+     <br>
+     <label for="name">Name</label>
+     <input type="text">
+      <br>
+      <label for="number">Credit Card Number</label>
+      <input id="number" type="text">
+      
+      <div class="checkforexpiry">
+      <div>
+        <label for="expiry">Expiration</label>
+        <input id="expiry" type="text">
+      </div>
+        <div>
+      <label for="cvv">CVV</label>
+      <input id="cvv" type="text">
+          </div>
+        </div>
+      <button class="button">Submit</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
